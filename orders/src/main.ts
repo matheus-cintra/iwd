@@ -2,7 +2,7 @@ import { ValidationPipe } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { MicroserviceOptions } from '@nestjs/microservices';
 import { AppModule } from './app.module';
-import { CUSTOMER_CONSUMER } from './kafka/consumers/consumers';
+import { CUSTOMER_CONSUMER } from './providers/kafka/consumers/consumers';
 
 async function bootstrap() {
   // const app = await NestFactory.create(AppModule, { cors: true });
